@@ -19,7 +19,7 @@ type severity int32 // sync/atomic int32
 //日志等级分类
 
 const (
-	LevelAlert severity = iota
+	LevelAlert = iota
 	LevelCritical
 	LevelError
 	LevelWarning
