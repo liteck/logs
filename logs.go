@@ -111,7 +111,7 @@ func formatPrint(level int, i string) {
 	}
 
 	msg := fmt.Sprintf(" %s%s%s %s%s%s", color, l, reset, color, i, reset)
-	std.Println(msg)
+	std.Output(3, msg)
 }
 
 // 定义日志输出位置
